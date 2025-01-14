@@ -8,9 +8,9 @@ import pickle
 @st.cache_resource
 def load_model_and_scaler():
     # Pastikan file model dan scaler tersimpan di folder yang sama
-    with open('model.pkl', 'rb') as model_file:
+    with open('DM-A11.2022.14253-UAS/model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
-    with open('scaler.pkl', 'rb') as scaler_file:
+    with open('DM-A11.2022.14253-UAS/scaler.pkl', 'rb') as scaler_file:
         scaler = pickle.load(scaler_file)
     return model, scaler
 
