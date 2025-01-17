@@ -1,5 +1,5 @@
-Nama  : Kavin Nafis Maulana
-NIM  : A11.2022.14253
+Nama  : Kavin Nafis Maulana <br/>
+NIM  : A11.2022.14253 <br/>
 
 Repositiry ini digunakan untuk menyelesesaikan tugas UAS dari mata kuliah Pembelajaran mesin/Machine learning
 Di dalam repository ini, terdapat beberapa file dan folder, diantaranya:
