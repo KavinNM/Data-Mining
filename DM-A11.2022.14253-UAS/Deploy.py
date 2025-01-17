@@ -22,13 +22,13 @@ st.write("Masukkan nilai untuk setiap fitur di bawah ini, lalu klik tombol 'Pred
 temperature = st.slider("Temperature tubuh (Fahrenheit)", 94, 115, 97)
 st.write("Temperature tubuh dari Pasien = ", temperature, "Fahrenheit")
 
-temperature = st.slider("Jumlah Platelet (Fahrenheit)", 10000, 500000, 97)
+temperature = st.slider("Jumlah Platelet", 10000, 500000, 11000)
 
 
-platelet_count = st.slider("Jumlah Platelet", 10000, 500000, 10500)
+platelet_count = st.slider("Jumlah Platelet", 10000, 500000, 11000)
 
 
-wbc_count = st.slider("Jumlah Sel Darah Putih", 3000, 20000, 4000)
+wbc_count = st.slider("Jumlah Sel Darah Putih", 3000, 20000, 5000)
 
 body_pain = st.selectbox("Body Pain (Nyeri Badan)", options=[0, 1, 2])
 st.write("0 = Tidak ada")
